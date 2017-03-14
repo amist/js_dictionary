@@ -4,7 +4,7 @@ Dictionary for JS primitive obfuscation.
 
 ## Building Blocks ###
 
-* ***stringify object (not always works)*** `''+object`
+* ***stringify object (doesn't always work)*** `''+object`
 * **true** `!''`
 * **false** `![]`
 * **NaN** `!''+''['']`
